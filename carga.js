@@ -1,5 +1,5 @@
 c = new Mongo();
-db = c.getDB("filmes");
+db = c.getDB("catalogo");
 
 var filmes = db.filmes.initializeUnorderedBulkOp();
 
